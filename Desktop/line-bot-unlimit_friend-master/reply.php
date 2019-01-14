@@ -8,7 +8,7 @@ echo "<input type='Text' value ='' name='lineid'>"
 
 
 // ID ที่ต้องการส่งไปหา
-$pushID = 'U2c568bbaf0ae23584c8e6f2b5e36cad3';
+$pushID = 'U8a959fcd70ac037b4ecbaf5c76bdea3e';
 
 $httpClient = new \LINE\LINEBot\HTTPClient\CurlHTTPClient($access_token);
 $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => $channelSecret]);
