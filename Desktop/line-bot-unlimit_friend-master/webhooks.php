@@ -45,8 +45,8 @@ if (!is_null($events['events'])) {
 	}
 }
 require "vendor/autoload.php";
-$channelSecret = '*Channel secret*';
-$pushID = '*YourUserID*';
+$channelSecret = '83cbbcfa65de5592e3da84630e7375e3';
+$pushID = 'U8a959fcd70ac037b4ecbaf5c76bdea3e';
 $httpClient = new \LINE\LINEBot\HTTPClient\CurlHTTPClient($access_token);
 $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => $channelSecret]);
 $textMessageBuilder = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder($text2);
