@@ -1,5 +1,5 @@
 <?php
-$access_token = '*Channel_access_token*';
+$access_token = 'JNHYZM4lvcCnJeEIRIgR76kxbbzh8ZIHL0wW+vfeCQK2Fa6i5fHGeMdet3ZHvFYqMbCqPWnXzHodOhMqpa+4O+QjjSJKP0ZQb/4vPXoUNhzQYpqzaNMckhjnpejnt21Sjtp10JMgxoejuxO9UQTofgdB04t89/1O/w1cDnyilFU=';
 
 
 $url = 'https://api.line.me/v1/oauth/verify';
